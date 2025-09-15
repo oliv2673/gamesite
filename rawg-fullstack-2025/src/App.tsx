@@ -19,15 +19,15 @@ function App() {
   // color='blackAlpha.700'
   // fontWeight='bold'
 >
-  <GridItem pl='2' bg='orange.300' area={'nav'}>
+  <GridItem pl='2' bg='white.300' area={'nav'}>
     <NavBar />
   </GridItem>
   <Show above="lg">
-    <GridItem pl='2' bg='pink.300' area={'aside'}>
+    <GridItem pl='2' bg='white.300' area={'aside'}>
       Aside
     </GridItem>
   </Show>
-  <GridItem pl='2' bg='green.300' area={'main'}>
+  <GridItem pl='2' bg='white.300' area={'main'}>
     <GameGrid />
   </GridItem>
 </Grid>
